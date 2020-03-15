@@ -1,0 +1,50 @@
+* {
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: .2fr 3fr .2fr;
+}
+
+main {
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+}
+main * {
+    text-align: center;
+}
+
+main h2 {
+    text-transform: uppercase;
+    color: rgb(9, 98, 241);
+}
+
+header {
+    font-weight: normal;
+    background: black;
+    text-transform: lowercase;
+}
+
+header h2 {
+    color: white;
+    text-align: center;
+}
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    text-align: center;
+}
