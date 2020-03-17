@@ -1,0 +1,166 @@
+@media screen and (min-width: 768px) {
+  body {
+    background: white;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: .2fr 3fr .2fr;
+        grid-template-rows: .2fr 3fr .2fr;
+  }
+  header {
+    padding: 10%;
+    text-transform: lowercase;
+    color: white;
+    background-image: -webkit-gradient(linear, left top, right top, from(#0acffe), to(#495aff));
+    background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);
+  }
+  main {
+    margin-bottom: 25px;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-grid-row-align: center;
+        align-self: center;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: .5fr .2fr .2fr .2fr;
+        grid-template-rows: .5fr .2fr .2fr .2fr;
+    -ms-grid-columns: .5fr .5fr;
+        grid-template-columns: .5fr .5fr;
+        grid-template-areas: "title title" "experience frameworks" "pricing tos" "contact contact";
+  }
+  main #title {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: title;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    font-size: 30px;
+    text-align: center;
+  }
+  main h2 {
+    text-transform: lowercase;
+    font-size: 20px;
+  }
+  main div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 25px;
+    margin: 5px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  }
+  main div h2 {
+    font-size: 2rem;
+  }
+  main #frameworks {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+    grid-area: frameworks;
+  }
+  main #frameworks h2 {
+    text-align: center;
+  }
+  main #frameworks ol {
+    padding: 0;
+    margin: 0;
+  }
+  main #frameworks ol li {
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+  }
+  main #experience {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: experience;
+  }
+  main #experience h2 {
+    text-align: center;
+  }
+  main #experience ol li {
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+  }
+  main #pricing {
+    text-align: center;
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: pricing;
+  }
+  main #pricing h2 {
+    margin: 0;
+    padding: 0;
+  }
+  main #contact {
+    text-align: center;
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: contact;
+    margin-bottom: 10px;
+  }
+  main #contact h2 {
+    margin: 0;
+    padding: 0;
+  }
+  main #contact ul {
+    padding: 0;
+    margin: 0;
+    display: -ms-grid;
+    display: grid;
+    list-style-type: none;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  main #contact ul li {
+    color: white;
+    font-weight: bold;
+    margin: 5px;
+    background-color: #7474e7;
+    padding: 25px;
+  }
+  main #tos {
+    -ms-grid-row: 3;
+    -ms-grid-column: 2;
+    grid-area: tos;
+    text-align: center;
+  }
+  main #tos h2 {
+    padding: 0;
+    margin: 0;
+  }
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    background-image: -webkit-gradient(linear, left top, right top, from(#0acffe), to(#495aff));
+    background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);
+    color: white;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer p {
+    font-weight: bold;
+  }
+}

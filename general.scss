@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    font-family: Montserrat, sans-serif, Arial, Helvetica;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #212121;
+}
+
+.ordered-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    li {
+        transition: .2s;
+    }
+
+    li.red:hover {
+        color: white;
+        background-color: rgb(236, 93, 41);
+    }
+
+    li.blue:hover {
+        color: white;
+        background-color: rgb(64, 64, 212);
+    }
+
+    li.yellow:hover {
+        color: white;
+        background-color: rgb(233, 213, 99);
+    }
+    li.black:hover {
+        color: white;
+        background-color: rgb(80, 79, 79);
+        box-shadow: none;
+    }
+    li.green:hover {
+        color: white;
+        background-color: rgb(46, 184, 46);
+    }
+}
