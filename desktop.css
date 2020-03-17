@@ -8,7 +8,6 @@
   }
   header {
     padding: 10%;
-    text-transform: lowercase;
     color: white;
     background-image: -webkit-gradient(linear, left top, right top, from(#0acffe), to(#495aff));
     background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);
@@ -41,7 +40,6 @@
     text-align: center;
   }
   main h2 {
-    text-transform: lowercase;
     font-size: 20px;
   }
   main div {

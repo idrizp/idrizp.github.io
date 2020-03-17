@@ -7,13 +7,12 @@
         grid-template-rows: 0.2fr 3fr 0.2fr;
     }
     header {
-        text-transform: lowercase;
+        
         display: flex;
         align-content: flex-start;
         justify-content: flex-start;
-        margin: 5% 5% 0 5%;
-        padding-top: 3rem;
-        padding-bottom: 3rem;
+        padding: 6rem;
+        text-align: center;
         padding-left: 20px;
         padding-right: 20px;
         box-shadow: 0px 0px 25px 0px rgba(255, 255, 255, 0.349);
@@ -28,7 +27,7 @@
     main {
         padding: 25px;
         #title {
-            color: white;
+            color: black;
             text-transform: uppercase;
         }
         #experience {
@@ -36,34 +35,32 @@
                 margin: 0;
                 padding: 0;
                 font-weight: bold;
-                font-size: 110%;
                 padding-bottom: 10px;
-                color: white;
-                text-transform: lowercase;
+                color: black;
+                
             }
         }
         #frameworks {
+            margin-top: 50px;
             h2 {
-                color: white;
-                text-transform: lowercase;
-                font-size: 110%;
+                color: black;
             }
         }
         #contact {
+            margin-top: 50px;
             h2 {
-                font-size: 110%;
-                color: white;
-                text-transform: lowercase;
+                color: black;
+                
             }
             ul {
                 padding: 0;
                 margin: 0;
                 list-style-type: none;
                 li {
-                    color: white;
-                    background: rgb(53, 118, 223);
+                    color: rgb(255, 255, 255);
+                    background-color: rgb(116, 116, 231);
                     font-weight: bold;
-                    padding: 10px;
+                    padding: 20px;
                     margin: 10px 0 10px 0;
                 }
             }
@@ -71,25 +68,27 @@
         #pricing {
             padding-top: 10px;
             h2 {
-                color: white;
+                color: black;
                 margin: 0;
             }
             p {
                 margin: 0;
                 padding-top: 5px;
-                color: white;
+                color: black;
             }
+            margin-top: 20px;
+            margin-bottom: 20px;
         }
         #tos {
             padding-top: 15px;
             h2 {
-                color: white;
+                color: black;
                 margin: 0;
             }
             p {
                 margin: 0;
                 padding-top: 5px;
-                color: white;
+                color: black;
             }
         }
     }
@@ -98,6 +97,7 @@
         text-align: center;
         padding: 10px;
         color: white;
+        font-weight: bolder;
     }
     .ordered-list li {
         background-color: white;
@@ -107,7 +107,7 @@
         color: black;
         margin: 10px;
         text-align: center;
-        box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
         transition: 0.2s;
     }
 }
