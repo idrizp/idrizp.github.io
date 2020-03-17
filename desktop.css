@@ -7,7 +7,7 @@
         grid-template-rows: .2fr 3fr .2fr;
   }
   header {
-    padding: 10%;
+    padding: 5%;
     color: white;
     background-image: -webkit-gradient(linear, left top, right top, from(#0acffe), to(#495aff));
     background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);
@@ -20,24 +20,11 @@
         align-self: center;
     display: -ms-grid;
     display: grid;
-    -ms-grid-rows: .5fr .2fr .2fr .2fr;
-        grid-template-rows: .5fr .2fr .2fr .2fr;
+    -ms-grid-rows: .1fr .2fr .2fr;
+        grid-template-rows: .1fr .2fr .2fr;
     -ms-grid-columns: .5fr .5fr;
         grid-template-columns: .5fr .5fr;
         grid-template-areas: "title title" "experience frameworks" "pricing tos" "contact contact";
-  }
-  main #title {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 2;
-    grid-area: title;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    -ms-grid-column-align: center;
-        justify-self: center;
-    font-size: 30px;
-    text-align: center;
   }
   main h2 {
     font-size: 20px;
@@ -139,9 +126,15 @@
     grid-area: tos;
     text-align: center;
   }
+  main #tos p {
+    padding: 0;
+    margin: 10px;
+    text-align: left;
+  }
   main #tos h2 {
     padding: 0;
     margin: 0;
+    margin-bottom: 10px;
   }
   footer {
     display: -webkit-box;

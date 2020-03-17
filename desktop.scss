@@ -5,7 +5,7 @@
         grid-template-rows: .2fr 3fr .2fr;
     }
     header {
-        padding: 10%;
+        padding: 5%;
         
         color: white;
         background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);
@@ -15,19 +15,12 @@
         justify-self: center;
         align-self: center;
         display: grid;
-        grid-template-rows: .5fr .2fr .2fr .2fr;
+        grid-template-rows: .1fr .2fr .2fr;
         grid-template-columns: .5fr .5fr;
         grid-template-areas: "title title"
         "experience frameworks"
         "pricing tos"
         "contact contact";
-        #title {
-            grid-area: title;
-            align-self: center;
-            justify-self: center;
-            font-size: 30px;
-            text-align: center;
-        }
         h2 {
             
             font-size: 20px;
@@ -108,9 +101,15 @@
         #tos {
             grid-area: tos;
             text-align: center;
+            p {
+                padding: 0;
+                margin: 10px;
+                text-align: left;
+            }
             h2 {
                 padding: 0;
                 margin: 0;
+                margin-bottom: 10px;
             }
         }
     }
