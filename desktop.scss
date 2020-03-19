@@ -15,9 +15,10 @@
         justify-self: center;
         align-self: center;
         display: grid;
-        grid-template-rows: .1fr .2fr .2fr;
+        grid-template-rows: .1fr .1fr .2fr .2fr;
         grid-template-columns: .5fr .5fr;
-        grid-template-areas: "title title"
+        grid-template-areas:
+        ". ."
         "experience frameworks"
         "pricing tos"
         "contact contact";

@@ -20,11 +20,11 @@
         align-self: center;
     display: -ms-grid;
     display: grid;
-    -ms-grid-rows: .1fr .2fr .2fr;
-        grid-template-rows: .1fr .2fr .2fr;
+    -ms-grid-rows: .1fr .1fr .2fr .2fr;
+        grid-template-rows: .1fr .1fr .2fr .2fr;
     -ms-grid-columns: .5fr .5fr;
         grid-template-columns: .5fr .5fr;
-        grid-template-areas: "title title" "experience frameworks" "pricing tos" "contact contact";
+        grid-template-areas: ". ." "experience frameworks" "pricing tos" "contact contact";
   }
   main h2 {
     font-size: 20px;
